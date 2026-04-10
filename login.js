@@ -15,7 +15,7 @@ loginForm.addEventListener('submit',(event)=>{
         phone: phoneText,
     };
 
-    fetch('https://hypoglycemic-zaida-splurgily.ngrok-free.dev/open-sesame', {
+    fetch('https://login-page-project-backend.onrender.com/open-sesame', {
         method:'POST',
         headers: {
             'Content-Type':'application/json'
